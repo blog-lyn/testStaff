@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/WWWRoot/!svn/ver/12133/website/Plugins/React+Redux
+END
+config.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/WWWRoot/!svn/ver/11461/website/Plugins/React+Redux/config.js
+END
+proxy.config.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/WWWRoot/!svn/ver/11461/website/Plugins/React+Redux/proxy.config.js
+END
+.eslintrc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/WWWRoot/!svn/ver/12128/website/Plugins/React+Redux/.eslintrc
+END
+package.json
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/WWWRoot/!svn/ver/12128/website/Plugins/React+Redux/package.json
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/WWWRoot/!svn/ver/11461/website/Plugins/React+Redux/.gitignore
+END
+.editorconfig
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/WWWRoot/!svn/ver/11461/website/Plugins/React+Redux/.editorconfig
+END
+webpack.config.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/WWWRoot/!svn/ver/12133/website/Plugins/React+Redux/webpack.config.js
+END
