@@ -5,7 +5,8 @@
   "dependencies": {
     "antd": "^2.9.0",
     "react": "^15.5.3",
-    "react-dom": "^15.5.3"
+    "react-dom": "^15.5.3",
+    "rxjs": "^5.3.0"
   },
   "devDependencies": {
     "autoprefixer": "6.7.2",
