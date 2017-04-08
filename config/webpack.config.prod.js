@@ -85,7 +85,7 @@ module.exports = {
       'react-native': 'react-native-web'
     }
   },
-  
+
   module: {
     // First, run the linter.
     // It's important to do this before Babel processes the JS.
@@ -126,13 +126,16 @@ module.exports = {
         test: /\.(js|jsx)$/,
         include: paths.appSrc,
         loader: 'babel',
-        
+
         query: {
+
           // add for antd
           plugins: [
-	    ['import', [{ libraryName: "antd", style: 'css' }]], //不需要less的时候
-            ['import', [{ libraryName: "antd", style: true }]],  // 加载 less 文件
-           ],
+            'transform-decorators-legacy',
+            'transform-class-properties',
+            // ['import', [{ libraryName: 'antd', style: 'css' }]], //不需要less的时候
+            ['import', [{ libraryName: 'antd', style: true }]],  // 加载 less 文件
+          ],
           // This is a feature of `babel-loader` for webpack (not Babel itself).
           // It enables caching results in ./node_modules/.cache/babel-loader/
           // directory for faster rebuilds.
@@ -183,9 +186,9 @@ module.exports = {
       // Remember to add the new extension(s) to the "url" loader exclusion list.
     ]
   },
-  
+
   // We use PostCSS for autoprefixing only.
-  postcss: function() {
+  postcss: function () {
     return [
       autoprefixer({
         browsers: [

@@ -132,10 +132,10 @@ module.exports = {
         query: {
           // add for antd
           plugins: [
-            // "transform-decorators-legacy",
-            // "transform-class-properties",
+            'transform-decorators-legacy',
+            'transform-class-properties',
             //['import', [{ libraryName: "antd", style: 'css' }]], //不需要less的时候
-            ['import', [{ libraryName: "antd", style: true }]],  // 加载 less 文件
+            ['import', [{ libraryName: 'antd', style: true }]],  // 加载 less 文件
           ],
           // This is a feature of `babel-loader` for webpack (not Babel itself).
           // It enables caching results in ./node_modules/.cache/babel-loader/
