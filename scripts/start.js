@@ -107,6 +107,7 @@ function setupCompiler(host, port, protocol) {
         console.log(message);
         console.log();
       });
+      //屏蔽错误
       return;
     }
 
